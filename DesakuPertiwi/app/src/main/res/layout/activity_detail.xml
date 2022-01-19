@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/foodImageDetail"
+            android:layout_width="match_parent"
+            android:layout_height="267dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/detail_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/foodImageDetail"
+            android:padding="12dp"
+            android:textColor="@color/design_default_color_primary" />
+
+        <TextView
+            android:id="@+id/deskripsi_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detail_text"
+            android:padding="12dp"
+            android:textColor="@color/design_default_color_primary" />
+
+        <TextView
+            android:id="@+id/hargaText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/deskripsi"
+            android:padding="12dp"
+            android:textColor="@color/design_default_color_primary" />
+    </LinearLayout>
+</RelativeLayout>

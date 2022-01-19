@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/call"
+        android:title="Call Center"
+        />
+
+    <item
+        android:id="@+id/smscenter"
+        android:title="SMS Center"
+        />
+
+    <item
+        android:id="@+id/lokasi"
+        android:title="Lokasi Map"
+        />
+
+    <item
+        android:id="@+id/updateuser"
+        android:title="Update User Password"
+        />
+</menu>

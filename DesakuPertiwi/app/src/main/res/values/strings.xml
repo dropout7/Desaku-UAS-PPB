@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Desaku Pertiwi</string>
+    <string name="user_home">Home</string>
+    <string-array name="foods_name">
+        <item>Sayur - Sayuran</item>
+        <item>Beras</item>
+        <item>Gas LPG</item>
+        <item>Gula</item>
+        <item>Indomie</item>
+        <item>Minyak</item>
+        <item>Susu</item>
+        <item>Telur</item>
+    </string-array>
+
+    <string-array name="foods_price">
+        <item>10000</item>
+        <item>20000</item>
+        <item>30000</item>
+        <item>40000</item>
+        <item>10000</item>
+        <item>20000</item>
+        <item>30000</item>
+        <item>40000</item>
+    </string-array>
+
+    <array name="foods_images"></array>
+
+    <array name="foods_description">
+        <item>Sayur enak sehat dan bergizi</item>
+        <item>Beras enak bikin kenyang</item>
+        <item>Gas unlimited tanpa habis</item>
+        <item>Gula paling manis seluruh dunia</item>
+        <item>Indomie sedap paling enak</item>
+        <item>Minyak paling murni</item>
+        <item>Susu sehat 5 sempurna</item>
+        <item>Telur ayam pak jannah</item>
+    </array>
+</resources>

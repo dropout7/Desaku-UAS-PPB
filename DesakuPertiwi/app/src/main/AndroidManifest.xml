@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.satria.desaku">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DesakuPertiwi"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:theme="@style/Theme.DesakuPertiwi" android:name=".MainActivity"></activity>
+        <activity android:theme="@style/Theme.DesakuPertiwi" android:name=".LoginActivity"></activity>
+        <activity android:theme="@style/Theme.DesakuPertiwi" android:name=".UserPassword"></activity>
+        <activity android:theme="@style/Theme.DesakuPertiwi" android:name=".LocationActivity"></activity>
+        <activity android:theme="@style/Theme.DesakuPertiwi" android:name=".DetailActivity"></activity>
+        <activity android:theme="@style/Theme.DesakuPertiwi" android:name=".RegisterActivity"></activity>
+        <activity android:theme="@style/Theme.DesakuPertiwi" android:name=".CallCenterActivity"></activity>
+        <activity android:theme="@style/Theme.DesakuPertiwi" android:name=".PembayaranActivity"></activity>
+        <activity android:theme="@style/Theme.DesakuPertiwi" android:name=".SMSCenterActivity"></activity>
+        <activity android:theme="@style/Theme.DesakuPertiwi" android:name=".NotaActivity"></activity>
+    </application>
+
+</manifest>
